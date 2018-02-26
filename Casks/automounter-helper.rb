@@ -8,6 +8,11 @@ cask 'automounter-helper' do
 
   installer manual: 'AutoMounterHelper.app'
 
-  uninstall pkgutil: 'nz.co.pixeleyes.AutoMounterHelper'
+  uninstall quit:      'nz.co.pixeleyes.AutoMounterHelper',
+            launchctl: 'nz.co.pixeleyes.AutoMounterHelper',
+            delete:    [
+                         '~/Library/AutoMounterHelper',
+                         '~/Library/Caches/nz.co.pixeleyes.AutoMounterHelper'
+                       ]
 
 end
