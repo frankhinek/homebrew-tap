@@ -7,4 +7,7 @@ cask 'automounter-helper' do
   homepage 'https://www.pixeleyes.co.nz/automounter/helper/index.html'
 
   installer manual: 'AutoMounterHelper.app'
+
+  uninstall pkgutil: 'nz.co.pixeleyes.AutoMounterHelper'
+
 end
