@@ -7,7 +7,7 @@ class Rke < Formula
   head "https://github.com/rancher/rke.git"
 
   def install
-    bin.install "rke"
+    bin.install "rke_darwin-amd64" => "rke"
   end
 
   test do
