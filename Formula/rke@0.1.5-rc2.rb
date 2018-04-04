@@ -1,10 +1,9 @@
-class Rke < Formula
+class RkeAT015Rc2, < Formula
   desc "Rancher Kubernetes Engine, K8s installation"
   homepage "https://github.com/rancher/rke"
-  url "https://github.com/rancher/rke/releases/download/v0.1.4/rke_darwin-amd64"
-  version "0.1.4"
-  sha256 "f905d31133a41b5d378f753f79d35133e82128bc48061e19d2f7450f2dc852b0"
-  head "https://github.com/rancher/rke.git"
+  url "https://github.com/rancher/rke/releases/download/v0.1.5-rc2/rke_darwin-amd64"
+  version "0.1.5-rc2"
+  sha256 "20ed09e3261fa94be90834f3a608d5281cbd5ce1f2c384ed32089b6ea7935c9e"
 
   def install
     bin.install "rke_darwin-amd64" => "rke"
