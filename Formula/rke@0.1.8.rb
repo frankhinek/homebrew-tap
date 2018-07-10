@@ -1,4 +1,4 @@
-class RkeAT016 < Formula
+class RkeAT018 < Formula
   desc "Rancher Kubernetes Engine, K8s installation"
   homepage "https://github.com/rancher/rke"
   url "https://github.com/rancher/rke/releases/download/v0.1.8/rke_darwin-amd64"
